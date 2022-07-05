@@ -1,0 +1,154 @@
+@font-face{
+  src: url(fonts/Nosifer-Regular.ttf);
+  font-family: nos;
+}
+.findSachin{
+   font-family: nos;
+   font-size: 15px;
+   margin-top: 5px;
+}
+  
+  #topheader{
+  background-color: #f5f6fa;
+  border: 1px solid silver;
+  
+}
+#topheader a{ 
+  color: #487eb0;
+  font-weight: 900;
+  font-size: 0.89rem;
+}
+.container-fluid{
+  padding: 0;
+}
+.container-fluid ul{
+  margin-left: 0px;
+}
+.container-fluid li{
+  margin-left: 15px;
+}
+nav ul li a{
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: none;
+  
+}
+/*start of thr footer*/
+.full-footer{
+  background-color:#273c75;
+  height:250px;
+  margin-top: 20px;
+
+}
+.qualitysection
+{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  color: #2C3A47;
+  background-color: #f1f2f6;
+}
+.top-footer p{
+ color: white;
+}
+.top-footer a{
+  color: white;
+  font-weight: 600;
+ }
+ .top-footer h3{
+   
+  margin-top:10px;
+  color: white;
+ }
+ .bottom-footer{
+   background-color:#00a8ff;
+ }
+ .bottom-footer p{
+  color: white;
+  font-size: 12px;
+  
+}
+/*End of the footer*/
+
+
+/*Start of the home page hero Section*/
+.top-hero-section{
+  background-color: #00a8ff;
+  color: aliceblue;
+}
+.top-hero-section a{
+  color: white;
+  font-weight: 600;
+}
+.top-hero-section button{
+  background-color: #273c75;
+  color: white;
+}
+/*End of the home page hero Section*/
+
+
+/*Start of the home page quality Section*/
+.qualities-image{
+  width: 200px;
+  margin-left: 65px;
+
+}
+
+/*End of the home page quality Section*/
+
+
+/*Start of the home requirements strip Section*/
+.requirements-section{
+  background-color:#353b48;
+  color: white;
+}
+.home-about-section img{
+  
+  color: white;
+  width: 400px;
+  
+}
+.home-newsletter{
+  background-color:#353b48;
+  color: white;
+}
+.home-newsletter .form-control{
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+}
+.home-newsletter .btn{
+  min-height: 50px;
+  border-color: #18588b;
+  background: rgb(206, 27, 137);
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+}
+
+.client-section{
+  background-color: #f0f0f0;
+}
+
+/* end of Home page styling*/
+
+/* Start of about page styling*/
+
+.breadcrumbs-section{
+  background-color: #ecf0f1;
+}
+.about{
+  background-color: #ecf0f1;
+}
+.progress h6{
+    font-size: 12px;
+}
+.aboutheading{
+  font-size: 40px;
+  text-shadow: black;
+}
+.aboutheading:hover{
+  color: #c0392b;
+  cursor: pointer;
+  
+}
+

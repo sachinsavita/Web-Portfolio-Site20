@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="comingsoon.css">
+  
+  <title>ComingSoon</title>
+
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+}
+button{
+
+  background: linear-gradient(to left,#8942a8c2,#ba382f8e);
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  float: left;
+  margin-right: 3px;
+  border-radius: 5px;
+  border-color: #8942a8;
+  color: whitesmoke;
+  float: left;
+  text-transform: uppercase;
+  
+}
+
+body{
+  font-family: Baloo;
+}
+.banner-text{
+  position: absolute;
+  width: 100%;
+  
+}
+
+.banner-text ul{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+.banner-text h2{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.animation-area{
+  background: linear-gradient(to left,#8942a8,#ba382f);
+  width: 100%;
+  height: 100vh;
+}
+.box-area{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box-area li{
+  margin-top: 300px;
+  position: absolute;
+  display: block;
+  list-style: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  
+  background: rgba(255,255,255,0.2);
+  animation: animate 10s linear infinite;
+  right: 1500px;
+  
+}
+.box-area li:nth-child(1){
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  margin-top: 500px;
+  animation-delay: 0s;
+  
+}
+.box-area li:nth-child(2){
+  
+  left: 70%;
+  width: 86px;
+  height: 86px;
+  margin-top: 39px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+
+.box-area li:nth-child(3){
+  left: 67%;
+  width: 100px;
+  height: 100px;
+  margin-top: 45px;
+  margin-left: 1200px;
+  margin-top: 115px;
+  animation-delay:0s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(4){
+  left: 52%;
+  width: 120px;
+  height: 120px;
+  margin-top: 70px;
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+.box-area li:nth-child(5){
+  left: 60%;
+  width: 200px;
+  height: 200px;
+  margin-top: 180px;
+  animation-duration: 25s;
+  animation-delay: 0s;
+  
+}
+.box-area li:nth-child(6){
+  left: 15%;
+  width: 110px;
+  height: 110px;
+  margin-top: 280px;
+  animation-duration: 12s;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(7){
+  left: 15%;
+  width: 170px;
+  height: 170px;
+  margin-top: 250px;
+  animation-duration: 15s;
+  animation-delay: .0s;
+}
+.box-area li:nth-child(8){
+  left: 45%;
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
+  animation-duration: 35s;
+  animation-delay: 0.5s;
+}
+
+.box-area li:nth-child(9){
+  left: 52%;
+  width: 39px;
+  height: 39px;
+  margin-top: 200px;
+  animation-duration: 30s;
+  animation-delay: 0s;
+}
+
+.box-area li:nth-child(10){
+  left: 43%;
+  width: 72px;
+  height: 72px;
+  margin-top: 370px;
+  animation-duration: 28s;
+  animation-delay: 0s;
+}
+
+.box-area li:nth-child(11){
+  left: 35%;
+  width: 50px;
+  height: 50px;
+  margin-top: 370px;
+  animation-duration: 45s;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(12){
+  left: 90%;
+  width: 78px;
+  height: 78px;
+  margin-top: 450px;
+  animation-duration: 45s;
+  animation-delay: 0s;
+}
+.box-area li:nth-child(13){
+  left: 75%;
+  width: 77px;
+  height: 77px;
+  margin-top: 330px;
+  animation-duration: 45s;
+  animation-delay: 0s;
+}
+@keyframes animate{
+  100%{
+    transform: translate(-2000px) rotate(1200deg);
+    opacity: 0;
+  }
+  0%{
+    transform: translate() rotate(10deg);
+    opacity: 1;
+  }
+  
+}
+  </style>
+</head>
+<body>
+
+ <div class="coming-soon">
+    <div class="banner-text text-center">
+
+    <h2 style="margin-right: 50px; margin-top: 300px">Coming Soon</h2>
+
+  </div>
+
+  <div class="animation-area">
+    <ul class="box-area">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+ </div>
+
+
+
+</body>
+</html>

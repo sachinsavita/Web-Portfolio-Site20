@@ -1,0 +1,125 @@
+.box2-area{
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box2-area li{
+  
+  position: absolute;
+  display: block;
+  list-style: none;
+  border-radius: 50%;
+  
+  width: 25px;
+  height: 25px;
+  background: rgba(255,255,255,0.2);
+  animation: animate 10s linear infinite;
+  right: 1500px;
+  
+}
+.box2-area li:nth-child(1){
+  left: 86%;
+  width: 80px;
+  height: 80px;
+ 
+  animation-delay: 0s;
+}
+.box2-area li:nth-child(2){
+  
+  left: 69%;
+  width: 86px;
+  height: 86px;
+  
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+
+.box2-area li:nth-child(3){
+  left: 6%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+.box2-area li:nth-child(4){
+  left: 2%;
+  width: 120px;
+  height: 120px;
+  
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+.box2-area li:nth-child(5){
+  left: 111%;
+  width: 50px;
+  height: 50px;
+  animation-duration: 25s;
+  animation-delay: 0s;
+  
+}
+.box2-area li:nth-child(6){
+  left: 110%;
+  width: 110px;
+  height: 110px;
+  animation-duration: 12s;
+  animation-delay: 0s;
+}
+.box2-area li:nth-child(7){
+  left: 25%;
+  width: 160px;
+  height: 170px;
+
+  animation-duration: 15s;
+  animation-delay: .0s;
+}
+@keyframes animate{
+  100%{
+    transform: translate(-2000px) rotate(360deg);
+    opacity: 0;
+  }
+  0%{
+    transform: translate() rotate(10deg);
+    opacity: 1;
+  }}
+.box2-area li:nth-child(8){
+  left: 85%;
+  width: 140px;
+  height: 150px;
+  animation-duration: 35s;
+  animation-delay: 1.5s;
+}
+
+.box2-area li:nth-child(9){
+  left: 92%;
+  width: 39px;
+  height: 39px;
+  animation-duration: 30s;
+  animation-delay: 0s;
+}
+
+.box2-area li:nth-child(10){
+  left: 33%;
+  width: 112px;
+  height: 112px;
+  animation-duration: 28s;
+  animation-delay: 0s;
+}
+
+.box2-area li:nth-child(11){
+  left: 30%;
+  width: 99px;
+  height: 99px;
+  animation-duration: 45s;
+  animation-delay: 0s;
+}
+@keyframes animate{
+  100%{
+    transform: translate(-1500px) rotate(360deg);
+    opacity: 0;
+  }
+  0%{
+    transform: translate() rotate(10deg);
+    opacity: 1;
+  }}

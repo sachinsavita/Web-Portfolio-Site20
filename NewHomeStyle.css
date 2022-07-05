@@ -1,0 +1,99 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.welcome{
+  text-align: center;
+  margin-top: 200px;
+}
+a{
+  background: linear-gradient(to left,#8942a8c2,#ba382f8e);
+  padding: 10px;
+  width: 100px;
+  height: 20px;
+  text-decoration: none;
+  float: left;
+  margin-right: 3px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-color: #8942a8;
+  color: whitesmoke;
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:Helvetica;  
+}
+
+body{
+  font-family: Baloo;
+}
+.banner-text{
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to left,#8942a8,#ba382f);
+  
+}
+
+.banner-text ul{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+.banner-text h2{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.animation{
+  position: absolute;
+  display: block;
+  list-style: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-left: 1100px;
+  background: rgba(255,255,255,0.2);
+  animation: animate 10s linear infinite;
+  right: 1500px;
+}
+.animattion li:nth-child(1)
+{
+  left:76%;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(226, 250, 12);
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+.animation li:nth-child(2)
+{
+  left: 12%;
+  width: 46px;
+  height: 46px;
+  background-color: black;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+.animation li:nth-child(2)
+{
+  left: 32%;
+  width: 66px;
+  height: 66px;
+  background-color: rgb(231, 18, 18);
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+@keyframes animate{
+  100%{
+    transform: translate(-2000px) rotate(1200deg);
+    opacity: 0;
+  }
+  0%{
+    transform: translate() rotate(10deg);
+    opacity: 1;
+  }
+  
+}
